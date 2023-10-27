@@ -1,6 +1,6 @@
 {
   "name": "@ngocsangyem/actions-cypress-comment",
-  "version": "0.8.1",
+  "version": "0.0.1",
   "description": "Template for GitHub actions.",
   "keywords": [
     "github",
@@ -33,6 +33,9 @@
     "test": "yarn lint && yarn typecheck && yarn cover",
     "typecheck": "tsc --noEmit",
     "update": "npm_config_yes=true npx npm-check-updates -u --timeout 100000 && yarn install && yarn upgrade && yarn audit"
+  },
+  "dependencies": {
+    "markdown-table": "^3.0.3"
   },
   "devDependencies": {
     "@actions/core": "^1.10.1",
@@ -68,8 +71,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "markdown-table": "^3.0.3"
   }
 }
