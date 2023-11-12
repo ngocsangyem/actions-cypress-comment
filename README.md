@@ -5,7 +5,6 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/ngocsangyem/actions-cypress-comment/badge)](https://www.codefactor.io/repository/github/ngocsangyem/actions-cypress-comment)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ngocsangyem/actions-cypress-comment/blob/master/LICENSE)
 
-Template for GitHub actions.
 
 ## Table of Contents
 
